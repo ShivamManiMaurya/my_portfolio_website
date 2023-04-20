@@ -8,9 +8,9 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 function NavBar() {
     return (
-        <Navbar bg="dark" expand="lg" variant="dark">
-            <Container>
-                <Navbar.Brand href="#home" className="">
+        <Navbar className="fixed-top" expand="lg" variant="dark">
+            <Container className="magicpattern-navbar">
+                <Navbar.Brand href="#home" className="home-container">
                     <a href="#home">
                         <img className="logo" src={logo} alt="navbar-logo" />
                     </a>

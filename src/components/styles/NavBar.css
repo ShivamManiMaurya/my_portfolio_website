@@ -1,3 +1,10 @@
+
+.main-navbar {
+}
+
+.home-container {
+}
+
 .logo {
     width: 150px;
     height: 50px;
@@ -19,5 +26,12 @@
 }
 
 .me-auto:active {
-    /* color: white */
 }
+
+.magicpattern-navbar { 
+    background: linear-gradient(180deg, #222456, #2d3061);
+    border-radius: 10px;
+    
+}
+  
+  

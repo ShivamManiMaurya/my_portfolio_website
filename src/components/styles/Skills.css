@@ -1,0 +1,26 @@
+.skills-html-img {
+    width: 50px;
+}
+
+.skills-html {
+
+}
+
+.skills-html-scale {
+    /* width: 100px;
+    height: 100px; */
+    background-color: red;
+}
+
+.skills-html-scale:hover {
+    animation: scaleKaro 1s;
+}
+
+@keyframes scaleKaro {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(200px);
+    }
+}

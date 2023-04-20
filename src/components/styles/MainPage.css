@@ -1,0 +1,62 @@
+
+.home-section {
+    padding-top: 150px;
+}
+
+
+.myPic-div {
+    /* background-color: rgb(39, 136, 247); */
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 5%;
+    background: linear-gradient(180deg, #303261, #444771)
+}
+
+
+
+.myPic {
+    height: 300px;
+    width: 300px;
+    object-fit:cover; 
+    transition: all 1s;
+    transform: rotate(7deg);
+    /* margin-top: 0px; */
+    margin-left: -12px;
+    border-radius: 5%;
+    /* border: 4px solid #917FB3; */
+}
+
+.myPic:hover {
+    transition: all 1s;
+    transform: rotate(0deg);
+}
+
+.details {
+    margin-top: 150px;
+    color: white;
+    animation: fade-in 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes fade-in {
+    0% {
+        transform:translateX(25px)
+    }
+    30% {
+        transform: scale(1.03);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform:translateX(25px)
+    }
+}
+
+
+
+
+  
