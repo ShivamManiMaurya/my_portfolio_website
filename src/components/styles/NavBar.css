@@ -1,0 +1,23 @@
+.logo {
+    width: 150px;
+    height: 50px;
+    object-fit:cover;
+}
+
+.social {
+    margin-right: 10px;
+}
+
+.social-icon {
+    height: 18px;
+    margin-top: 5px;
+    color: rgba(245, 245, 245, 0.866);
+}
+
+.social-icon:hover {
+    color: white
+}
+
+.me-auto:active {
+    /* color: white */
+}
