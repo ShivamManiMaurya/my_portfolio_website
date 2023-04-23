@@ -26,3 +26,10 @@
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 450px) {
+    .project-section {
+        margin-left: -40px;
+        margin-right: -60px;
+    }
+}
