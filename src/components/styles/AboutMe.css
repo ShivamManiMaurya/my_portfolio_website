@@ -1,0 +1,64 @@
+.aboutme-section {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.aboutme-btn-grp {
+    margin-bottom: 50px;
+}
+
+.aboutme-details {
+}
+
+.aboutme-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.aboutme-intro {
+    
+    background-image: url("../images/intro.png");
+}
+
+.aboutme-intro-hide {
+    display: none;
+}
+
+.aboutme-content {
+    height: 500px;
+    overflow-y: scroll;
+    margin: auto;
+    padding: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.aboutme-content::-webkit-scrollbar {
+    display: none;
+}
+
+.aboutme-exp {
+    background-image: url("../images/experience.png");
+}
+
+
+.aboutme-exp-hide {
+    display: none;
+}
+
+.aboutme-edu {
+    background-image: url("../images/education.png");
+}
+
+.aboutme-edu-hide {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .aboutme-content {
+        margin: auto;
+    }
+}

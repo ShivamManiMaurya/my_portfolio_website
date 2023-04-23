@@ -5,11 +5,9 @@
 
 
 .myPic-div {
-    /* background-color: rgb(39, 136, 247); */
     width: 300px;
     height: 300px;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 5%;
     background: linear-gradient(180deg, #303261, #444771)
 }
@@ -22,10 +20,8 @@
     object-fit:cover; 
     transition: all 1s;
     transform: rotate(7deg);
-    /* margin-top: 0px; */
     margin-left: -12px;
     border-radius: 5%;
-    /* border: 4px solid #917FB3; */
 }
 
 .myPic:hover {
@@ -57,6 +53,15 @@
 }
 
 
+@media screen and (max-width: 450px){
+    .details {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
 
+    .myPic-div {
+        margin-top: 0px;
+    }
+}
 
   
