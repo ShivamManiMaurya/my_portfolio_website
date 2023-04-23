@@ -10,17 +10,12 @@ import StarIcon from "@mui/icons-material/Star";
 import StarHalfIcon from "@mui/icons-material/StarHalf";
 
 function Skills() {
-    // const divVal = useRef();
     const [htmlflag, setHtmlFlag] = useState(false);
     const [cssFlag, setCssFlag] = useState(false);
     const [jsFlag, setJsFlag] = useState(false);
     const [reactFlag, setReactFlag] = useState(false);
     const [bootFlag, setBootFlag] = useState(false);
     const [allFlag, setAllFlag] = useState(false);
-
-    // useEffect(() => {
-    //     console.log(divVal);
-    // }, []);
 
     return (
         <section className="skills-section" id="skills">

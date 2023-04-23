@@ -1,4 +1,10 @@
 
+.skills-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
 .skills-heading {
     color: white;
     margin-top: 100px;
@@ -157,11 +163,11 @@
 @media screen and (max-width: 975px) {
     .skills-heading {
         text-align: left;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .all-skills {   
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     

@@ -1,6 +1,7 @@
 
 .home-section {
-    padding-top: 150px;
+    padding-top: 250px;
+    padding-bottom: 100px;
 }
 
 
@@ -34,7 +35,22 @@
     color: white;
     animation: fade-in 2s;
     animation-iteration-count: infinite;
-    
+}
+
+.details-span {
+    color: red;
+}
+
+.span-one {
+    font-size: 70px;
+}
+
+.span-three {
+    /* color: ; */
+    /* border: 1px solid white; */
+    background-color: red;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 @keyframes fade-in {
@@ -60,7 +76,19 @@
     }
 
     .myPic-div {
-        margin-top: 0px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    
+    .details {
+        margin-top: 50px;
+        margin-left: 45px;
+    }
+
+    .myPic-div {
+        margin-left: 40px;
     }
 }
 

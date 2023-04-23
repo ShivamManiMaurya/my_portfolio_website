@@ -14,8 +14,19 @@ function MainPage() {
                         </div>
                     </Col>
                     <Col className="details">
-                        <h1>Hi This is Shivam Maurya</h1>
-                        <h4>I'm a react web developer</h4>
+                        <h1>
+                            <span className="details-span span-one">Hi...</span>{" "}
+                            This is{" "}
+                            <span className="details-span span-two">
+                                Shivam Maurya
+                            </span>
+                        </h1>
+                        <h4>
+                            I'm a{" "}
+                            <span className="span-three">
+                                react web developer
+                            </span>
+                        </h4>
                     </Col>
                 </Row>
             </Container>

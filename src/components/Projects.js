@@ -19,21 +19,24 @@ function Projects() {
             image: netflix,
             title: "Netflix Clone",
             text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-            link: "some link",
+            link: "https://github.com/ShivamManiMaurya/netflix-clone",
+            liveSite: "https://netflix-clone-ece17.web.app/",
         },
         {
             key: "project-todo-list",
             image: todo,
             title: "Todo List",
             text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-            link: "some link",
+            link: "#",
+            liveSite: "#",
         },
         {
             key: "project-snake-game",
             image: snake,
             title: "Snake Game",
             text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-            link: "some link",
+            link: "#",
+            liveSite: "#",
         },
     ];
 
@@ -56,10 +59,16 @@ function Projects() {
                             </Card.Body>
                             {/* <div className="buttons"> */}
                             <ButtonGroup className="btnGrp">
-                                <Button variant="outline-dark">GitHub</Button>
-                                <Button variant="outline-info">
-                                    Live Site
-                                </Button>
+                                <a href={projects[idx].link}>
+                                    <Button variant="outline-dark">
+                                        GitHub
+                                    </Button>
+                                </a>
+                                <a href={projects[idx].liveSite}>
+                                    <Button variant="outline-info">
+                                        Live Site
+                                    </Button>
+                                </a>
                             </ButtonGroup>
                             {/* </div> */}
                         </Card>

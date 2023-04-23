@@ -27,7 +27,7 @@ function AboutMe() {
 
     return (
         <section className="aboutme-section" id="aboutme">
-            <h1>About Me</h1>
+            <h1 className="aboutme-title">About Me</h1>
             <ButtonGroup size="lg" className="aboutme-btn-grp">
                 <Button variant="warning" onClick={handleIntroClick}>
                     Introduction

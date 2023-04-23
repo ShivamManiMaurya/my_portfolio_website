@@ -33,13 +33,22 @@ function NavBar() {
                     </Nav>
                     <Nav className="connections">
                         <Nav className="social d-flex flex-row">
-                            <Nav.Link className="social-icon" href="#">
+                            <Nav.Link
+                                className="social-icon"
+                                href="https://www.linkedin.com/in/shivammanimaurya/"
+                            >
                                 <LinkedInIcon />
                             </Nav.Link>
-                            <Nav.Link className="social-icon" href="#">
+                            <Nav.Link
+                                className="social-icon"
+                                href="https://github.com/ShivamManiMaurya"
+                            >
                                 <GitHubIcon />
                             </Nav.Link>
-                            <Nav.Link className="social-icon" href="#">
+                            <Nav.Link
+                                className="social-icon"
+                                href="https://www.instagram.com/"
+                            >
                                 <InstagramIcon />
                             </Nav.Link>
                         </Nav>
@@ -58,11 +67,14 @@ function NavBar() {
 
             <Offcanvas show={show} onHide={handleClose} placement="end">
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                    <Offcanvas.Title>
+                        <h2>You Can Connect with me on: </h2>
+                    </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    Some text as placeholder. In real life you can have the
-                    elements you have chosen. Like, text, images, lists, etc.
+                    <h4>
+                        My Email - <span>shivammaurya097@gmail.com</span>
+                    </h4>
                 </Offcanvas.Body>
             </Offcanvas>
         </Navbar>
