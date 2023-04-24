@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import html from "./images/htmlnew.png";
 import css from "./images/cssnewnew.png";

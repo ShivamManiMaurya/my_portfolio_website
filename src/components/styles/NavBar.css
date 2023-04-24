@@ -1,23 +1,17 @@
 
-.main-navbar {
-}
-
-.home-container {
-}
-
 .logo {
-    width: 150px;
-    height: 50px;
-    object-fit:cover;
+    width: 9.375rem;
+    height: 3.125rem;
+    object-fit: cover;
 }
 
 .social {
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .social-icon {
-    height: 18px;
-    margin-top: 5px;
+    height: 1.125rem;
+    margin-top: 0.3125rem;
     color: rgba(245, 245, 245, 0.866);
 }
 
@@ -25,20 +19,14 @@
     color: white
 }
 
-.me-auto {
-    /* margin-left: 20px; */
-}
-
 .magicpattern-navbar { 
     background: linear-gradient(180deg, #222456, #2d3061);
-    border-radius: 10px;
-    
+    border-radius: 0.625rem;
 }
 
 .offcanvas {
-    /* width: 1000px; */
-    padding-top: 30px;
-    height: 300px;
+    padding-top: 1.875rem;
+    height: 18.75rem;
     background-color: rgb(255, 236, 160);
 }
 
@@ -48,26 +36,24 @@
 
 @media screen and (max-width: 975px){
     .toggle-btn {
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
     
     .me-auto {
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     .social {
-        margin-top: -10px;
-        margin-bottom: 20px;
-        margin-left: 20px;
+        margin: -0.625rem auto 1.25rem 1.25rem;
     }
 
     .social-icon {
-        margin-right: 16px;
+        margin-right: 1rem;
     }
 
     .lets-connect-btn {
-        margin-top: -5px;
-        margin-left: 20px;
+        margin-top: -0.3125rem;
+        margin-left: 1.25rem;
     }
 }
   

@@ -1,27 +1,24 @@
 
 .home-section {
-    padding-top: 250px;
-    padding-bottom: 100px;
+    padding-top: 15.625rem;
+    padding-bottom: 6.25rem;
 }
 
-
 .myPic-div {
-    width: 300px;
-    height: 300px;
-    margin-top: 50px;
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-top: 3.125rem;
     border-radius: 5%;
     background: linear-gradient(180deg, #303261, #444771)
 }
 
-
-
 .myPic {
-    height: 300px;
-    width: 300px;
+    height: 18.75rem;
+    width: 18.75rem;
     object-fit:cover; 
     transition: all 1s;
     transform: rotate(7deg);
-    margin-left: -12px;
+    margin-left: -0.75rem;
     border-radius: 5%;
 }
 
@@ -31,7 +28,7 @@
 }
 
 .details {
-    margin-top: 150px;
+    margin-top: 10rem;
     color: white;
     animation: fade-in 2s;
     animation-iteration-count: infinite;
@@ -42,53 +39,51 @@
 }
 
 .span-one {
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 .span-three {
-    /* color: ; */
-    /* border: 1px solid white; */
     background-color: red;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 0.3125rem;
+    padding-left: 0.3125rem;
 }
 
 @keyframes fade-in {
     0% {
-        transform:translateX(25px)
+        transform:translateX(1.5rem)
     }
     30% {
         transform: scale(1.03);
     }
     50% {
-        transform: translateX(-5px);
+        transform: translateX(-0.3125rem);
     }
     100% {
-        transform:translateX(25px)
+        transform:translateX(1.5rem)
     }
 }
 
 
 @media screen and (max-width: 450px){
     .details {
-        margin-top: 50px;
-        margin-left: 30px;
+        margin-top: 3.125rem;
+        margin-left: 1.875rem;
     }
 
     .myPic-div {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 }
 
 @media screen and (max-width: 370px) {
     
     .details {
-        margin-top: 50px;
-        margin-left: 45px;
+        margin-top: 3.125rem;
+        margin-left: 2.8125rem;
     }
 
     .myPic-div {
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
 }
 

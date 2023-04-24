@@ -1,12 +1,5 @@
 import React from "react";
-import {
-    Card,
-    CardGroup,
-    Row,
-    Col,
-    Button,
-    ButtonGroup,
-} from "react-bootstrap";
+import { Card, Row, Col, Button, ButtonGroup } from "react-bootstrap";
 import netflix from "./images/NetflixClone_mainPage.png";
 import todo from "./images/to-do-list-apps.png";
 import snake from "./images/Snake OG Image.png";
@@ -57,7 +50,6 @@ function Projects() {
                                 <Card.Title>{projects[idx].title}</Card.Title>
                                 <Card.Text>{projects[idx].text}</Card.Text>
                             </Card.Body>
-                            {/* <div className="buttons"> */}
                             <ButtonGroup className="btnGrp">
                                 <a href={projects[idx].link}>
                                     <Button variant="outline-dark">
@@ -70,7 +62,6 @@ function Projects() {
                                     </Button>
                                 </a>
                             </ButtonGroup>
-                            {/* </div> */}
                         </Card>
                     </Col>
                 ))}

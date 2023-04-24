@@ -1,15 +1,14 @@
 
 .project-section {
-    padding-top: 100px;
     text-align: center;
     color: white;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
 } 
 
 .project-heading {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
-
 
 .card {
     color: black
@@ -19,17 +18,13 @@
     text-align: left;
 }
 
-
-
 .btnGrp {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: auto 1.25rem 1.25rem 1.25rem;
 }
 
 @media screen and (max-width: 450px) {
     .project-section {
-        margin-left: -40px;
-        margin-right: -60px;
+        margin-left: -2.5rem;
+        margin-right: -4.75rem;
     }
 }

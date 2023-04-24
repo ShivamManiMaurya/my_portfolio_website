@@ -1,14 +1,13 @@
 
 .skills-section {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 5.7rem;
+    padding-bottom: 8rem;
 }
-
 
 .skills-heading {
     color: white;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 6.25rem;
+    margin-bottom: 3.125rem;
     text-align: center;
 }
 
@@ -17,50 +16,43 @@
 }
 
 .skills-img {
-    width: 50px;
+    width: 3.125rem;
 }
 
 .skills-html-img {
-    width: 63px;
-    /* margin-bottom: 10px; */
+    width: 3.9375rem;
 }
 
 .skills-css-img {
-    width: 63px;
+    width: 3.9375rem;
 }
 
 .skills-js-img {
-    width: 48px;
-    margin-top: 5px;
-    margin-left: 7px;
+    width: 3rem;
+    margin-top: 0.3125rem;
+    margin-left: 0.5rem;
 }
 
 .skills-react-img {
-    margin-top: 9px;
-    margin-left: 7px;
+    margin-top: 0.5625rem;
+    margin-left: 0.5rem;
 }
 
 .skills-bootstrap-img {
-    width: 48px;
-    margin-top: 10px;
-    margin-left: 7px;
+    width: 3rem;
+    margin-top: 0.625rem;
+    margin-left: 0.5rem;
 }
 
 .showing {
-    /* transition: all 2s; */
     opacity: 1;
     position: absolute;
     z-index: -1;
-    height: 40px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    
-    
-    /* background-color: #FF4100;
-    background-color: cyan; */
-    /* animation: showHoverEffect 1s; */
+    height: 2.5rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
     -webkit-animation: scale-up-hor-left 0.5s ease-out forwards;
-	        animation: scale-up-hor-left 0.5s ease-out forwards;
+	animation: scale-up-hor-left 0.5s ease-out forwards;
 }
 
 @-webkit-keyframes scale-up-hor-left {
@@ -94,10 +86,9 @@
 
 .show-html {
     background-color: #FF4100;
-    /* margin-top: 10px; */
-    margin-top: 12px;
-    margin-left: 11px;
-    width: 450px;
+    margin-top: 0.75rem;
+    margin-left: 0.6875rem;
+    width: 28.125rem;
 }
 
 .show-html, h3{
@@ -108,16 +99,16 @@
 
 .show-css {
     background-color: #12AEE1;
-    width: 350px;
-    margin-top: 12px;
-    margin-left: 11px;
+    width: 21.875rem;
+    margin-top: 0.75rem;
+    margin-left: 0.6875rem;
 }
 
 .show-js {
     background-color: #C5DD82;
-    width: 400px;
-    margin-top: 9px;
-    margin-left: 11px;
+    width: 25rem;
+    margin-top: 0.5625rem;
+    margin-left: 0.6875rem;
 }
 
 .show-js h3 {
@@ -126,17 +117,16 @@
 
 .show-react {
     background-color: #00D8FF;
-    /* background-color: #070612; */
-    width: 350px;
-    margin-top: 14px;
-    margin-left: 11px;
+    width: 21.875rem;
+    margin-top: 0.875rem;
+    margin-left: 0.6875rem;
 }
 
 .show-bootstrap {
     background-color: #594080;
-    width: 300px;
-    margin-top: 14px;
-    margin-left: 11px;
+    width: 18.75rem;
+    margin-top: 0.875rem;
+    margin-left: 0.6875rem;
 }
 
 .hide {
@@ -145,54 +135,37 @@
 }
 
 
-
-@keyframes showHoverEffect {
-    /* from {
-        opacity: 0;
-        scale: 0%;
-        transform: translateX(-50%)
-    }
-    to {
-        opacity: 1;
-        scale: 100%;
-        transform: translateX(0)
-    } */
-}
-
-
 @media screen and (max-width: 975px) {
     .skills-heading {
         text-align: left;
-        margin-left: 30px;
+        margin-left: 1.875rem;
     }
 
     .all-skills {   
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
-
-    
 }
 
 @media screen and (max-width: 478px) {
 
     .show-html {
-        width: 320px;
+        width: 20rem;
     }
 
     .show-css {
-        width: 230px;
+        width: 14.375rem;
     }
 
     .show-js {
-        width: 280px;
+        width: 17.5rem;
     }
 
     .show-react{
-        width: 230px;
+        width: 14.375rem;
     }
 
     .show-bootstrap {
-        width: 180px;
+        width: 11.25rem;
     }
     
 }

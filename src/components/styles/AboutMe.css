@@ -1,19 +1,16 @@
 .aboutme-section {
     color: white;
     text-align: center;
-    padding-bottom: 150px;
-    padding-top: 100px;
+    padding-bottom: 9.375rem;
+    padding-top: 6.25rem;
 }
 
 .aboutme-title {
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .aboutme-btn-grp {
-    margin-bottom: 50px;
-}
-
-.aboutme-details {
+    margin-bottom: 3.125rem;
 }
 
 .aboutme-caption {
@@ -22,7 +19,6 @@
 }
 
 .aboutme-intro {
-    
     background-image: url("../images/intro.png");
 }
 
@@ -31,12 +27,11 @@
 }
 
 .aboutme-content {
-    height: 500px;
+    height: 31.25rem;
     overflow-y: scroll;
     margin: auto;
-    padding: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 2.5rem;
+    margin: auto 9.375rem;
 }
 
 .aboutme-content::-webkit-scrollbar {
@@ -46,7 +41,6 @@
 .aboutme-exp {
     background-image: url("../images/experience.png");
 }
-
 
 .aboutme-exp-hide {
     display: none;
