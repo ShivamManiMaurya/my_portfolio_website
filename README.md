@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Netflix Clone in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project in which I made my portfolio site with my project, experience and other details.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+-   [Overview](#overview)
+    -   [The Theme](#the-theme)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+    -   [Continued development](#continued-development)
+    -   [Useful resources](#useful-resources)
+-   [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The Theme
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+-   View the details of my portfolio.
+-   Can hover and see my skills and can also hover the individual images for its skill details.
+-   Navigate through the navbar and the footer with links to my socials.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./screenshot.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Main Page                                                           |
+| ------------------------------------------------------------------- |
+| ![Main_page](./src/component/screenshots/NetflixClone_mainPage.png) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Hover State                                                                  | Individual Hover State                                                                             |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ![hover_state](./src/components/images/screenshots/portfolio_hoverstate.png) | ![Individual_Hover_state](./src/components/images/screenshots/portfolio_individual_hoverstate.png) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+-   [Github Solution](https://github.com/ShivamManiMaurya/my_portfolio_website)
+-   [Live Site]()
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My process
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-   HTML5
+-   CSS custom properties
+-   Flexbox
+-   JavaScript
+-   Bootstrap
+-   [React](https://reactjs.org/) - JS library
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### What I learned
 
-## Learn More
+-   Get more familiar with overflow CSS property
+-   Get more familiar with ::-webkit-scrollbar in CSS
+-   Get more familiar with transition and transform CSS property
+-   Get more familiar with animations in CSS
+-   Get more familiar with Bootstrap
+-   Get more familiar with the functional programming aspect of reactJs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Useful resources
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) - He helped me in understanding the core concepts of bootstrap.
+-   [Kevin Powell](https://www.youtube.com/@KevinPowell) - Kevin Powell helped me in understanding some concepts in css
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   Website - [Shivam Maurya](https://www.your-site.com)
+-   GitHub Page - [Shivam Maurya GitHub](https://github.com/ShivamManiMaurya)
+-   Linkedin - [@shivammanimaurya](https://www.linkedin.com/in/shivammanimaurya)

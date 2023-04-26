@@ -54,9 +54,52 @@
     display: none;
 }
 
+.work-details {
+    width: 31.35rem;
+    margin: auto;
+}
+
+.aboutme-heading {
+    color: red;
+}
+
+.aboutme-edu-details {
+    color: orange;
+}
+
+.aboutme-intro-div {
+    margin-top: 100px;
+}
+
+.aboutme-intro-div h1 {
+    margin-bottom: 25px;
+}
+
+.aboutme-intro-details {
+    width: 500px;
+    margin: auto;
+}
 
 @media screen and (max-width: 1000px) {
     .aboutme-content {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .work-details {
+        width: auto;
+    }
+
+    .aboutme-content {
+        margin: auto;
+    }
+
+    .aboutme-intro-div {
+        margin-top: auto;
+    }
+
+    .aboutme-intro-details {
+        width: auto;
     }
 }
