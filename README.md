@@ -29,9 +29,9 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-| Main Page                                                           |
-| ------------------------------------------------------------------- |
-| ![Main_page](./src/component/screenshots/NetflixClone_mainPage.png) |
+| Main Page                                                                |
+| ------------------------------------------------------------------------ |
+| ![Main_page](./src/components/images/screenshots/portfolio_mainpage.png) |
 
 | Hover State                                                                  | Individual Hover State                                                                             |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |

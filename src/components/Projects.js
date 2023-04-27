@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Row, Col, Button, ButtonGroup } from "react-bootstrap";
 import netflix from "./images/NetflixClone_mainPage.png";
 import keeper from "./images/KeeperNotes_main.png";
-import snake from "./images/Snake OG Image.png";
+import snake from "./images/snake-gamenew.png";
 import "./styles/Projects.css";
 
 function Projects() {
@@ -20,16 +20,16 @@ function Projects() {
             image: keeper,
             title: "Keeper App",
             text: "This is a React project its a simple app for adding notes. In this, you can add or delete the notes with animation and other stuff.",
-            link: "#",
-            liveSite: "#",
+            link: "https://github.com/ShivamManiMaurya/Keeper_App",
+            liveSite: "https://shivammanimaurya.github.io/Keeper_App/",
         },
         {
             key: "project-snake-game",
             image: snake,
             title: "Snake Game",
             text: "In this game, the player can move and eat the food and try to not bump in the walls and don't eat itself.",
-            link: "#",
-            liveSite: "#",
+            link: "https://github.com/ShivamManiMaurya/Snake_Game",
+            liveSite: "https://shivammanimaurya.github.io/Snake_Game/",
         },
     ];
 

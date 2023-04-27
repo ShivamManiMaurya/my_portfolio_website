@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myPic from "./images/IMG_20220912_085234.jpg";
+import myPic from "./images/Picsart_23-04-27_17-23-13-181.jpg";
 import "./styles/MainPage.css";
 
 function MainPage() {
