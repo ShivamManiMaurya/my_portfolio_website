@@ -1,4 +1,4 @@
-# Netflix Clone in React
+# My Portfolio Website
 
 This is a React project in which I made my portfolio site with my project, experience and other details.
 
@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 -   [Github Solution](https://github.com/ShivamManiMaurya/my_portfolio_website)
--   [Live Site]()
+-   [Live Site](https://shivammanimaurya.github.io/my_portfolio_website/)
 
 ## My process
 
@@ -69,6 +69,6 @@ Users should be able to:
 
 ## Author
 
--   Website - [Shivam Maurya](https://www.your-site.com)
+-   Website - [Shivam Maurya](https://shivammanimaurya.github.io/my_portfolio_website/)
 -   GitHub Page - [Shivam Maurya GitHub](https://github.com/ShivamManiMaurya)
 -   Linkedin - [@shivammanimaurya](https://www.linkedin.com/in/shivammanimaurya)

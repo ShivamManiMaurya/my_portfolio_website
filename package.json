@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ShivamManiMaurya.github.io/my_portfolio_website",
   "name": "my_new_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "bootstrap": "^5.2.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
     "nodemailer": "^6.9.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
@@ -21,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
