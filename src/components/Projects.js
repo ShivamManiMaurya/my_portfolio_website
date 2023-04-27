@@ -35,7 +35,8 @@ function Projects() {
 
     return (
         <section className="project-section" id="projects">
-            <h1 className="project-heading">Projects</h1>
+            {" "}
+            b<h1 className="project-heading">Projects</h1>
             <Row xs={1} md={3} className="g-5 ms-5 me-5">
                 {Array.from({ length: 3 }).map((_, idx) => (
                     <Col>
